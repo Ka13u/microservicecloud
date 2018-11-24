@@ -4,19 +4,18 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.experimental.Accessors;
 
+import java.io.Serializable;
+
 /**
  * Created by KaBu on 2018/11/24.
  */
 @NoArgsConstructor
 @Data
 @Accessors(chain = true)
-public class Dept {
+public class Dept implements Serializable{
 
-    private long deptNo;
-    private String deptName;
-    private String dbSource;
+    private long deptno;
+    private String dname;
+    private String db_source;
 
-    public Dept(String deptName) {
-        this.deptName = deptName;
-    }
 }

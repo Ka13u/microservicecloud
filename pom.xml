@@ -11,6 +11,7 @@
 
     <modules>
         <module>microservicecloud-api</module>
+        <module>microservicecloud-provider-dept-8101</module>
     </modules>
 
     <properties>
