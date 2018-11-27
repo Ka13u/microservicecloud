@@ -28,6 +28,8 @@
         <module name="microservicecloud-eureka-7102" />
         <module name="microservicecloud-eureka-7103" />
         <module name="microservicecloud-provider-dept-8101" />
+        <module name="microservicecloud-provider-dept-8102" />
+        <module name="microservicecloud-provider-dept-8103" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
@@ -38,6 +40,8 @@
       <module name="microservicecloud-eureka-7102" target="1.8" />
       <module name="microservicecloud-eureka-7103" target="1.8" />
       <module name="microservicecloud-provider-dept-8101" target="1.8" />
+      <module name="microservicecloud-provider-dept-8102" target="1.8" />
+      <module name="microservicecloud-provider-dept-8103" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -9,9 +9,7 @@ eureka:
   client:
     service-url:
       defaultZone: http://eureka7102.com:7101/eureka/http://eureka7102.com:7102/eureka/,http://eureka7103.com:7103/eureka/
-#是否需要从eureka上检索服务
-    register-with-eureka: true
-    fetch-registry: true
+
   instance:
-    instance-id: microservicecloud-dept8101
+    instance-id: microservicecloud-consumer-dept81
     prefer-ip-address: true     #访问路径可以显示IP地址

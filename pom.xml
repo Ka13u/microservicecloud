@@ -16,6 +16,8 @@
         <module>microservicecloud-eureka-7101</module>
         <module>microservicecloud-eureka-7102</module>
         <module>microservicecloud-eureka-7103</module>
+        <module>microservicecloud-provider-dept-8102</module>
+        <module>microservicecloud-provider-dept-8103</module>
     </modules>
 
     <properties>
