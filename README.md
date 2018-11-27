@@ -1,2 +1,2 @@
 # microservicecloud
-Maven配置整合SpringMVC、Spring Boot、Mybatis、Eureka、Ribbon、Feign，完成一套比较完整的Spring Cloud微服务架构，根据提交记录一步一步构建
+Maven配置整合SpringMVC、Spring Boot、Mybatis、Eureka服务注册与发现、Ribbon负载均衡、Feign软负载均衡、Hystrix熔断器，完成一套相对完整的Spring Cloud微服务架构，根据提交记录一步一步构建
