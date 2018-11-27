@@ -2,6 +2,7 @@ package com.code.springcloud.entity;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 import lombok.experimental.Accessors;
 
 import java.io.Serializable;
