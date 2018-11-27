@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/microservicecloud-api/microservicecloud-api.iml" filepath="$PROJECT_DIR$/microservicecloud-api/microservicecloud-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud-consumer-dept-81/microservicecloud-consumer-dept-81.iml" filepath="$PROJECT_DIR$/microservicecloud-consumer-dept-81/microservicecloud-consumer-dept-81.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud-eureka-7101/microservicecloud-eureka-7101.iml" filepath="$PROJECT_DIR$/microservicecloud-eureka-7101/microservicecloud-eureka-7101.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicecloud-eureka-7102/microservicecloud-eureka-7102.iml" filepath="$PROJECT_DIR$/microservicecloud-eureka-7102/microservicecloud-eureka-7102.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicecloud-eureka-7103/microservicecloud-eureka-7103.iml" filepath="$PROJECT_DIR$/microservicecloud-eureka-7103/microservicecloud-eureka-7103.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud-provider-dept-8101/microservicecloud-provider-dept-8101.iml" filepath="$PROJECT_DIR$/microservicecloud-provider-dept-8101/microservicecloud-provider-dept-8101.iml" />
     </modules>
   </component>

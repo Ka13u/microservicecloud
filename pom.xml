@@ -14,6 +14,8 @@
         <module>microservicecloud-provider-dept-8101</module>
         <module>microservicecloud-consumer-dept-81</module>
         <module>microservicecloud-eureka-7101</module>
+        <module>microservicecloud-eureka-7102</module>
+        <module>microservicecloud-eureka-7103</module>
     </modules>
 
     <properties>

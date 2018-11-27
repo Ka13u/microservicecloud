@@ -25,6 +25,8 @@
         <module name="microservicecloud-api" />
         <module name="microservicecloud-consumer-dept-81" />
         <module name="microservicecloud-eureka-7101" />
+        <module name="microservicecloud-eureka-7102" />
+        <module name="microservicecloud-eureka-7103" />
         <module name="microservicecloud-provider-dept-8101" />
       </profile>
     </annotationProcessing>
@@ -33,7 +35,8 @@
       <module name="microservicecloud-api" target="1.8" />
       <module name="microservicecloud-consumer-dept-81" target="1.8" />
       <module name="microservicecloud-eureka-7101" target="1.8" />
-      <module name="microservicecloud-provider-8001" target="1.8" />
+      <module name="microservicecloud-eureka-7102" target="1.8" />
+      <module name="microservicecloud-eureka-7103" target="1.8" />
       <module name="microservicecloud-provider-dept-8101" target="1.8" />
     </bytecodeTargetLevel>
   </component>

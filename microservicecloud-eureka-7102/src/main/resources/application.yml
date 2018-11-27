@@ -1,15 +1,15 @@
 server: 
-  port: 7101
+  port: 7102
  
 eureka: 
   instance:
-    hostname: eureka7101.com  #修改C:\Windows\System32\drivers\etc的host文件，虚拟映射，防止地址歧义
+    hostname: eureka7102.com  #修改C:\Windows\System32\drivers\etc的host文件，虚拟映射，防止地址歧义
   client: 
     register-with-eureka: false     #向注册中心注册自己。
     fetch-registry: false     #注册中心，我的职责就是维护服务实例，并不需要去检索服务
     service-url: 
 #       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/       #设置与Eureka Server交互的地址查询服务和注册服务都需要依赖这个地址（单机）。
-      defaultZone: http://eureka7102.com:7102/eureka/,http://eureka7103.com:7103/eureka/
+      defaultZone: http://eureka7101.com:7101/eureka/,http://eureka7103.com:7103/eureka/
       
  
 
