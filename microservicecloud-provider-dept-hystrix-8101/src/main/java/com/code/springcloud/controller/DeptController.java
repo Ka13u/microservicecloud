@@ -25,7 +25,7 @@ public class DeptController
 	}
 
 	@RequestMapping(value = "/dept/get/{id}", method = RequestMethod.GET)
-	@HystrixCommand(fallbackMethod = "processHystrix_Get")
+	@HystrixCommand(fallbackMethod = "processHystrix_Get")   //不符合AOP思想
 	public Dept get(@PathVariable("id") Long id)
 	{
 		Dept dept = service.get(id);
