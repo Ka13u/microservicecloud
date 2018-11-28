@@ -1,0 +1,24 @@
+server: 
+  port: 6101
+ 
+spring: 
+  application:
+    name: microservicecloud-zuul-gateway
+ 
+eureka: 
+  client: 
+    service-url: 
+      defaultZone: http://eureka7101.com:7101/eureka,http://eureka7102.com:7102/eureka,http://eureka7103.com:7103/eureka
+  instance:
+    instance-id: gateway-6101.com
+    prefer-ip-address: true 
+ 
+ 
+zuul:
+  prefix: /code      #访问地址加前缀
+  ignored-services: "*"    #忽略真实项目名称
+  routes: 
+    mydept.serviceId: microservicecloud-dept     #更换代理名称
+    mydept.path: /mydept/**
+
+#修改C:\Windows\System32\drivers\etc的host文件，增加虚拟映射，myzuul.com,类比于Eureka地址

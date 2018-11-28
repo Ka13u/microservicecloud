@@ -21,6 +21,7 @@
         <module>microservicecloud-consumer-dept-feign</module>
         <module>microservicecloud-provider-dept-hystrix-8101</module>
         <module>microservicecloud-consumer-hystrix-dashboard</module>
+        <module>microservicecloud-zuul-gateway-6101</module>
     </modules>
 
     <properties>
